@@ -105,7 +105,7 @@ export class NetNode {
     public send(cmd: NetCmd, buff: NetBuff, force: boolean = false): boolean {
         // 已連線或是強制發送
         if (this._state == NetState.Connected || force) {
-            return this._socket.send(buff);
+            return this._socket.send(JSON.stringify({ cmd: cmd, data: buff }));
         }
         // 重連或是重送中
         else if (this._state == NetState.Connecting || this._state == NetState.Resending) {
