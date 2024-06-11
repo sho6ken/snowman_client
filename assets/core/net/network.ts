@@ -65,7 +65,7 @@ export interface NetHandler {
  */
 export interface NetConnOpt {
     // 連線位置
-    url: string;
+    addr: string;
 
     // 重連次數
     reconn: number;
