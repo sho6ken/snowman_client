@@ -65,7 +65,7 @@ export class WSocket implements NetSocket {
      * @param reason 錯誤原因
      */
     public close(code?: number, reason?: string): void {
-        console.log(`proactive close ws, code=${code}, res=${reason}`)
+        console.log(`close ws, code=${code}, res=${reason}`)
         this._socket?.close(code, reason);
     }
 }
