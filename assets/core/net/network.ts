@@ -49,12 +49,6 @@ export interface NetHandler {
     isLegal(buff: NetBuff): boolean;
 
     /**
-     * 取得數據內的協議編號
-     * @param buff 
-     */
-    getCmd(buff: NetBuff): NetCmd;
-
-    /**
      * 取得心跳包
      */
     getBeat(): { cmd: NetCmd, buff: NetBuff };

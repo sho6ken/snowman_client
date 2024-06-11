@@ -210,7 +210,7 @@ export class NetNode {
         this.resetDisconn();
         this.resetBeat();
 
-        let cmd = this._handler.getCmd(buff);
+        let cmd = JSON.parse(<string>buff).cmd;
 
         // 刪除對應請求
         for (const idx in this._requests) {
