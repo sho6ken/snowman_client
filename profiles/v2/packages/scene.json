@@ -1,0 +1,230 @@
+{
+  "gizmos-infos": {
+    "is2D": true,
+    "is3DIcon": false,
+    "iconSize": 2,
+    "gridVisible": true,
+    "gridColor": [
+      166,
+      166,
+      166,
+      255
+    ],
+    "transformToolName": "position",
+    "pivot": "pivot",
+    "coordinate": "local",
+    "toolsVisibility3d": true
+  },
+  "__version__": "1.0.0",
+  "builder": {},
+  "snap-configs": {
+    "position": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "rotation": 1,
+    "scale": 1,
+    "isPositionSnapEnabled": false,
+    "isRotationSnapEnabled": false,
+    "isScaleSnapEnabled": false
+  },
+  "rect-snap-configs": {
+    "enableSnapping": true,
+    "snapThreshold": 4
+  },
+  "camera-infos": {
+    "fb5c26d6-11ed-43aa-a622-d0cb8b0798bc": {
+      "position": {
+        "x": 640,
+        "y": 360.00000000000006,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 0,
+        "y": -76.11814345991563,
+        "width": 663.6,
+        "height": 373.275
+      },
+      "scale": 0.5184375
+    },
+    "010da8fa-90cf-4d70-b088-7a6deb94753d": {
+      "position": {
+        "x": 640,
+        "y": 360.00000000000006,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 0,
+        "y": 5.482186267467922e-14,
+        "width": 663.6,
+        "height": 373.275
+      },
+      "scale": 0.5184375
+    },
+    "1d8e5689-ed89-4086-a91e-29ca210189c3": {
+      "position": {
+        "x": 640,
+        "y": 360.00000000000006,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 0,
+        "y": -76.11814345991563,
+        "width": 663.6,
+        "height": 373.275
+      },
+      "scale": 0.5184375
+    },
+    "bcbe3a0a-c305-4e59-a0ba-985453b3316b": {
+      "position": {
+        "x": 640,
+        "y": 360.00000000000006,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 0,
+        "y": -76.11814345991563,
+        "width": 663.6,
+        "height": 373.275
+      },
+      "scale": 0.5184375
+    },
+    "82c25f1f-d76b-4736-ad26-77b070b6e45a": {
+      "position": {
+        "x": 640,
+        "y": 360.00000000000006,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 0,
+        "y": -76.11814345991563,
+        "width": 663.6,
+        "height": 373.275
+      },
+      "scale": 0.5184375
+    },
+    "77e071b6-ccbb-4768-a1a8-d7cd16390c4e": {
+      "position": {
+        "x": 680.8680015175407,
+        "y": 452.84302125374876,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 40.868001517539646,
+        "y": 92.84302125374823,
+        "width": 663.6,
+        "height": 373.275
+      },
+      "scale": 0.5184374999999992
+    }
+  },
+  "camera-uuids": [
+    "fb5c26d6-11ed-43aa-a622-d0cb8b0798bc",
+    "010da8fa-90cf-4d70-b088-7a6deb94753d",
+    "1d8e5689-ed89-4086-a91e-29ca210189c3",
+    "bcbe3a0a-c305-4e59-a0ba-985453b3316b",
+    "82c25f1f-d76b-4736-ad26-77b070b6e45a",
+    "77e071b6-ccbb-4768-a1a8-d7cd16390c4e"
+  ],
+  "camera": {
+    "color": [
+      48,
+      48,
+      48,
+      255
+    ],
+    "fov": 45,
+    "far": 10000,
+    "near": 0.01,
+    "wheelSpeed": 0.01,
+    "wanderSpeed": 10,
+    "enableAcceleration": true,
+    "size": "__default_design__",
+    "far2D": 10000,
+    "near2D": 1,
+    "wheelSpeed2D": 6,
+    "iso": 0,
+    "aperture": 19,
+    "shutter": 7
+  },
+  "float-window": {
+    "position": {
+      "cc": {
+        "Camera": {
+          "dock": false,
+          "top": null,
+          "bottom": 10,
+          "left": null,
+          "right": 10
+        }
+      }
+    }
+  }
+}
