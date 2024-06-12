@@ -114,7 +114,7 @@ export class NetNode {
         }
         // 錯誤
         else {
-            console.error(`net node send failed, cmd=${cmd}`, buff);
+            console.error(`net node send failed`, buff);
         }
     }
 
@@ -192,8 +192,9 @@ export class NetNode {
         this._hint?.onReconn(false);
         this._hint?.onReq(false);
 
-        // 重送訊息
         console.log(`net node start resend`);
+
+        // 重送訊息
         this._requests.forEach(elm => elm.buff && this._socket.send(elm.buff), this);
     }
 

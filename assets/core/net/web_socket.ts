@@ -39,7 +39,7 @@ export class WSocket implements NetSocket {
         this._socket.onerror = this.error;
         this._socket.onclose = this.closed;
 
-        console.log(`start conn, type=ws, addr=${addr}`)
+        console.log(`start conn, type=ws, addr=${addr}`);
         
         return true;
     }

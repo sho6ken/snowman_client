@@ -7,10 +7,10 @@ import { NetBuff, NetCmd, NetConnOpt, NetObj } from "./network";
  */
 export class NetMgr implements Singleton {
     // 名稱
-    public get name(): string { return this.constructor.name; };
+    public get name(): string { return this.constructor.name; }
 
     // 不做釋放
-    public get keep(): boolean { return true; };
+    public get keep(): boolean { return true; }
 
     // 頻道
     private _channels: Map<number, NetNode> = new Map();

@@ -51,7 +51,7 @@ export interface NetHandler {
     /**
      * 取得心跳包
      */
-    getBeat(): { cmd: NetCmd, buff: NetBuff };
+    getBeat(): { cmd: NetCmd, buff: NetBuff }
 }
 
 /**
