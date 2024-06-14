@@ -1,7 +1,7 @@
 import { _decorator, Component, Node, UITransform, view, Widget, screen, size } from 'cc';
-import { eventFunc } from '../../event/event-decor';
+import { eventFunc } from '../../event/event_decor'; 
 import { EDITOR } from 'cc/env';
-import { EventConf } from '../../../conf/event-conf';
+import { EventConf } from '../../../conf/event_conf';
 
 const { ccclass, property, menu, requireComponent } = _decorator;
 

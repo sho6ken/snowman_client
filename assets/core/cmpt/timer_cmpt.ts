@@ -1,7 +1,7 @@
 import { _decorator, Component, Node, SceneAsset } from 'cc';
 import { SingleMgr, Singleton } from '../util/singleton';
-import { EventMgr } from '../event/event-mgr';
-import { EventConf } from '../../conf/event-conf';
+import { EventMgr } from '../event/event_mgr';
+import { EventConf } from '../../conf/event_conf';
 
 const { ccclass, property, menu, disallowMultiple, executionOrder } = _decorator;
 

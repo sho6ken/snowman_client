@@ -1,6 +1,6 @@
-import { AssetMgr } from "../comm/asset/asset-mgr";
+import { AssetMgr } from "../core/asset/asset_mgr"; 
 import { Node, Prefab, instantiate } from "cc";
-import { SingleMgr } from "../comm/util/singleton";
+import { SingleMgr } from "../core/util/singleton";
 
 /**
  * prefab種類

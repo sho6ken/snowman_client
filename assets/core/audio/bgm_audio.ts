@@ -1,6 +1,6 @@
 import { AudioClip, AudioSource, Tween } from "cc";
 import { AudioCtrl } from "./audio_ctrl";
-import { WaitUtil } from "../util/wait-util";
+import { WaitUtil } from "../util/wait_util";
 
 /**
  * 音樂控制

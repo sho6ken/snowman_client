@@ -1,7 +1,7 @@
 import { _decorator, Canvas, Component, Node, ResolutionPolicy, view } from 'cc';
 import { SingleMgr } from '../../util/singleton';
-import { EventMgr } from '../../event/event-mgr';
-import { EventConf } from '../../../conf/event-conf';
+import { EventMgr } from '../../event/event_mgr'; 
+import { EventConf } from '../../../conf/event_conf';
 
 const { ccclass, property, menu, requireComponent, disallowMultiple } = _decorator;
 

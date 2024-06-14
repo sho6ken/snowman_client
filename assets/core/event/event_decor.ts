@@ -1,4 +1,4 @@
-import { EventConf } from "../../conf/event-conf";
+import { EventConf } from "../../conf/event_conf";
 import { SingleMgr } from "../util/singleton";
 import { EventMgr, EventType } from "./event_mgr";
 

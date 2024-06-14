@@ -1,5 +1,5 @@
 import { JsonAsset } from "cc";
-import { AssetMgr } from "../asset/asset-mgr";
+import { AssetMgr } from "../asset/asset_mgr";
 import { SingleMgr } from "../util/singleton";
 import { TableData } from "./table_data";
 
