@@ -1,6 +1,6 @@
 import { Game, game, sys } from "cc";
 import { SingleMgr, Singleton } from "./singleton";
-import { EventMgr } from "../event/event-mgr";
+import { EventMgr } from "../event/event_mgr";
 import { EventConf } from "../../conf/event-conf";
 
 /**
