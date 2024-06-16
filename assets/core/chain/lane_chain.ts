@@ -1,9 +1,9 @@
 /**
- * 工作鏈
+ * 單向工作鏈
  */
-export abstract class WorkChain {
+export abstract class LaneChain {
     // 子鏈
-    private _child: WorkChain = null;
+    private _child: LaneChain = null;
 
     /**
      * 加入
@@ -11,7 +11,7 @@ export abstract class WorkChain {
      * @returns 被加入子鏈的母鏈
      * @summary 已有子鏈則向後搜尋至末端後加入
      */
-    public push(chain: WorkChain): WorkChain {
+    public push(chain: LaneChain): LaneChain {
         if (this._child) {
             return this._child.push(chain);
         }
@@ -27,7 +27,7 @@ export abstract class WorkChain {
      * @returns 原本的子鏈
      * @summary 斷開原本的母子鏈, 中間插入此鏈並接上
      */
-    public insert(chain: WorkChain): WorkChain {
+    public insert(chain: LaneChain): LaneChain {
         chain._child = this._child;
         this._child = chain;
 
