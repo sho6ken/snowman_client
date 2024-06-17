@@ -19,7 +19,7 @@ export abstract class StateCmpt extends Component {
      * @param ctrl 控制器
      * @param params 初始化參數
      */
-    init(ctrl: StateCtrl, ...params: any[]): void {
+    public init(ctrl: StateCtrl, ...params: any[]): void {
         this._ctrl = ctrl;
     }
 
