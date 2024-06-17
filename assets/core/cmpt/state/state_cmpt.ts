@@ -41,5 +41,3 @@ export abstract class StateCmpt extends Component {
      */
     abstract onEnd(): void;
 }
-
-
